@@ -1,0 +1,17 @@
+// JLink初始化脚本 - 确保RAM数据下载
+// 此脚本会在下载后执行，手动将图片数据写入AXI SRAM
+// 注意：此脚本需要在Keil的JLink设置中指定
+
+// 设置下载选项
+SetDownloadToRAM = 1
+SetVerifyDownload = 1
+
+// 注意：实际的数据写入由Keil的下载器自动完成
+// 此脚本主要用于确保RAM区域可访问
+
+
+
+
+
+
+
